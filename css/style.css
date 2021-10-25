@@ -1,0 +1,35 @@
+body {
+  color: #f8f9fa;
+  text-align: center;
+}
+.jumbotron {
+  background-image: url("../images/heroimgcat.jpg");
+  background-position: 100%;
+  margin-bottom: 0rem;
+}
+.navbar {
+  background-color: transparent;
+  padding-top: 3%;
+}
+.userResearch {
+  text-align: center;
+  background-color: #b9deee;
+}
+.col-ur {
+  background-color: #ffa99d;
+}
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -100px;
+
+  margin-left: -101px;
+}
+.col-id {
+  background-color: #b9deee;
+}
+.ideation {
+  background-color: #abcdc7;
+}
