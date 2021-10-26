@@ -15,7 +15,7 @@
     <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid">
       <!--NavBar-->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light navprim">
         <button
           class="navbar-toggler"
           type="button"
@@ -53,9 +53,22 @@
         </p>
       </div>
     </div>
-    <h1 class="userResearch">User Research</h1>
+    <!--secondary nav-->
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class="nav-link active" href="#userResearch">User Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ideation">Ideation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#design">Design</a>
+      </li>
+    </ul>
     <!--User Research-->
-    <div class="container">
+    <h1 class="userResearch">User Research</h1>
+
+    <div id="userResearch" class="container">
       <div class="row">
         <!--img 1-->
         <div class="col-sm col-ur">
@@ -95,7 +108,7 @@
 
     <!--Ideation-->
     <h1 class="ideation">Ideation</h1>
-    <div class="container">
+    <div id="ideation" class="container">
       <div class="row">
         <!--img 1-->
 
@@ -124,6 +137,38 @@
         </div>
       </div>
     </div>
+    <!--Design-->
+    <h1 class="design">Design</h1>
+    <div id="design" class="container">
+      <div class="row">
+        <!--img 1-->
+        <div class="col-sm col-de">
+          <img src="images/lowfiblind.png" style="height: 350px" />
+        </div>
+
+        <!--about info-->
+        <div class="col-sm col-de">
+          <h3>Wireframes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed
+            cumque, officiis eius, soluta voluptate aliquid eaque libero quasi
+            laudantium tempore. Incidunt atque dolorem omnis pariatur esse,
+            similique libero nulla?
+          </p>
+          <h3>Iterations</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed
+            cumque, officiis eius, soluta voluptate aliquid eaque libero quasi
+            laudantium tempore. Incidunt atque dolorem omnis pariatur esse,
+            similique libero nulla?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <nav class="navbar navbar-light navfoot">
+      <span class="navbar-text"> Nichole Michel </span>
+    </nav>
   </body>
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

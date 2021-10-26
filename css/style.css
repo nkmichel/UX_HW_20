@@ -7,7 +7,7 @@ body {
   background-position: 100%;
   margin-bottom: 0rem;
 }
-.navbar {
+.navprim {
   background-color: transparent;
   padding-top: 3%;
 }
@@ -32,4 +32,25 @@ body {
 }
 .ideation {
   background-color: #abcdc7;
+}
+.design {
+  background-color: #ffa99d;
+}
+.col-de {
+  background-color: #abcdc7;
+}
+.navfoot {
+  background-color: #b9deee;
+  padding-top: 1%;
+}
+.nav-pills {
+  background-color: #abcdc7;
+}
+.active {
+  background-color: #ffa99d;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #ffa99d;
 }
